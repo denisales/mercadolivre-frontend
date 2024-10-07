@@ -11,4 +11,4 @@ Após os dois projetos em execução, acesse a url da aplicação [frontend](htt
 
 ## Observação
 
-Estou subindo os ``.env`` para o repositório com entuito de facilitar o teste, mas tenho noção que esse arquivos não se deve ir para o repositório.
+Estou subindo os ``.env`` para o repositório com intuito de facilitar o teste, mas tenho noção que esse arquivos não se deve ir para o repositório.

@@ -58,4 +58,4 @@ backend<br>
 
 ## Observação
 
-Estou subindo os ``.env`` para o repositório com entuito de facilitar o teste, mas tenho noção que esse arquivos não se deve ir para o repositório.
+Estou subindo os ``.env`` para o repositório com intuito de facilitar o teste, mas tenho noção que esse arquivos não se deve ir para o repositório.
