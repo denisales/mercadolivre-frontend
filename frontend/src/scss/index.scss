@@ -1,0 +1,15 @@
+@import './global/fonts';
+@import './global/variables';
+@import './global/base';
+@import './global/mixins';
+@import './global/utils';
+
+@import './components/header';
+@import './components/card-product';
+@import './components/input';
+@import './components/breadcrumb';
+@import './components/button';
+
+@import './pages/home';
+@import './pages/search';
+@import './pages/detail';

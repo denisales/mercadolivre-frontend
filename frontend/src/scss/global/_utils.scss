@@ -1,0 +1,16 @@
+.u-logo {
+	@include image-replacement(47px, 31px);
+	background: url('/images/logo.svg') no-repeat center/cover;
+}
+
+.u-button-search {
+	@include icon-search();
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	cursor: pointer;
+	&::after {
+		position: relative;
+		top: 2px;
+	}
+}

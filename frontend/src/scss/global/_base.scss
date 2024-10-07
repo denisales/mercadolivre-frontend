@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'ProximaNova', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: $bg-foreground;
+	color: $text-primary;
+}
+
+input {
+	border-color: transparent;
+	border-width: 1.5px;
+	background-color: #fff;
+}
+
+a {
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: transparent;
+	color: currentColor;
+	text-decoration: none;
+}
+
+input:focus-visible,
+a:focus-visible,
+button:focus-visible {
+	border-style: solid;
+	border-color: #3483fa;
+	border-width: 1.5px;
+	outline: 0;
+}
+
+input::placeholder {
+	color: $text-disable;
+}
+
+input,
+input::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+button {
+	all: unset;
+	appearance: none;
+	box-sizing: border-box;
+}

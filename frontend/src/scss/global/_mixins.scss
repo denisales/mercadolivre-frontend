@@ -1,0 +1,38 @@
+@mixin container() {
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+@mixin image-replacement($width, $height) {
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: $width;
+	height: $height;
+}
+
+@mixin icon-search() {
+	&::after {
+		line-height: 1;
+		font-family: 'navigation';
+		vertical-align: middle;
+		content: '';
+	}
+}
+
+
+@mixin media-breakpoint($breakpoint) {
+   @if $breakpoint == md {
+    @media (min-width: $breakpoint-md) { @content; }
+  } @else if $breakpoint == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  } @else if $breakpoint == xl {
+    @media (min-width: $breakpoint-xl) { @content; }
+  } @else if $breakpoint == xxl {
+    @media (min-width: $breakpoint-xxl) { @content; }
+  }
+}
